@@ -20,9 +20,6 @@ const Navbar = () => {
         </svg>
       </Link>
       <ul className="flex space-x-7 text-3xl justify-end content-center text-white">
-        <Link href="/users">
-          <li>Users</li>
-        </Link>
         <Link href="/posts">
           <li>Posts</li>
         </Link>
