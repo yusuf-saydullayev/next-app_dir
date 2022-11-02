@@ -3,7 +3,7 @@ async function getPosts() {
   return res.json()
 }
 const Posts = async () => {
-  const posts = await getPosts({ subsets: ['latin'] })
+  const posts = await getPosts()
   return (
     <div>
       <h1 className="text-center text-6xl text-blue-800">Post Page</h1>

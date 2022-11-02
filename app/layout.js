@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import '../styles/globals.css'
 import { Montserrat } from '@next/font/google'
 
-const montserrat = Montserrat()
+const montserrat = Montserrat({ subsets: ['latin'] })
 export default function RootLayout({ children }) {
   return (
     <html className={montserrat.className}>
